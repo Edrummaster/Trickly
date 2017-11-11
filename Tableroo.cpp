@@ -45,11 +45,13 @@ bool Tablero::verificarTickyFilas(int &fila){
 		fila = 0;
 		cout<<"entro 1"<<endl;
 		return true;
+		
+		
 	}
-	
 
 
-	else if( ((matriz[1][0].getSimbolo() != ' ') == (matriz[1][1].getSimbolo() != ' ')) && ((matriz[1][0].getSimbolo() != ' ') ==( matriz[1][2].getSimbolo() != ' ')) ){
+
+	if( ((matriz[1][0].getSimbolo() != ' ') == (matriz[1][1].getSimbolo() != ' ')) && ((matriz[1][0].getSimbolo() != ' ') ==( matriz[1][2].getSimbolo() != ' ')) ){
 		fila = 1;
 		cout<<"entro 2"<<endl;
 		return true;
@@ -57,8 +59,7 @@ bool Tablero::verificarTickyFilas(int &fila){
 	
 	
 	
-	//if( ((matriz[2][0].getSimbolo()!=' ') != (matriz[2][1].getSimbolo()!=' ')) && ((matriz[2][0].getSimbolo()!=' ') !=(matriz[2][2].getSimbolo()!=' ')) ){
-	else{
+	if( ((matriz[2][0].getSimbolo()!=' ') != (matriz[2][1].getSimbolo()!=' ')) && ((matriz[2][0].getSimbolo()!=' ') !=(matriz[2][2].getSimbolo()!=' ')) ){
 		fila = 2;
 		cout<<"entro 3"<<endl;
 		return true;
@@ -66,6 +67,9 @@ bool Tablero::verificarTickyFilas(int &fila){
 	
 	return false;
 }
+
+
+
 
 
 /*

@@ -10,8 +10,7 @@ Ficha::Ficha(){
 
 Ficha::Ficha(char simbolo1, char etiqueta1){
 	simbolo= simbolo1;
-	etiqueta= etiqueta1;
-	
+	etiqueta= etiqueta1;	
 }
 
 
@@ -35,7 +34,7 @@ void Ficha::setEtiqueta(char netq ){
 }
 
 void Ficha::dibujarFicha(){
-	cout<< etiqueta << "| " <<simbolo;
+	cout<< etiqueta << " | " <<simbolo;
 }
 
 

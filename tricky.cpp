@@ -30,6 +30,7 @@ int main(){
 			return 0;
 		}
 		system ("cls");
+		
 				/*
 		Ficha f2 = j2.nextJugada(tbl);
 		char etq2 = f2.getEtiqueta();
